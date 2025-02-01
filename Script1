@@ -1,0 +1,24 @@
+using UnityEngine;
+
+public class Script1 : MonoBehaviour
+{
+    int apple;
+    int banana;
+    int carrot;
+    int total; // assign previous variables in an equation = to total
+
+    void Start()
+    {
+        apple = 25; // declared hard coded variables
+        banana = 36;
+        carrot = 2;
+        total = (apple + banana) * 4 / (carrot + apple);
+
+        Debug.Log("The total fruity value is " + total); // will display string with total's value...hopefully
+    }
+
+    void Update()
+    {
+        
+    }
+}
