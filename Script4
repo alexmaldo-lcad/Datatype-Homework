@@ -1,0 +1,21 @@
+using UnityEngine;
+
+public class Script4 : MonoBehaviour
+{
+    public Vector3 byethere; //movement
+    public Vector3 hihere; //starting position
+    public float speed;
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    void Start()
+    {
+        this.transform.position = hihere;
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        this.transform.position += byethere * speed * Time.deltaTime;
+
+        Debug.Log("LAWL BYE!");
+    }
+}
