@@ -1,0 +1,20 @@
+using UnityEngine;
+
+public class Script2 : MonoBehaviour
+{
+    public float dare; // declare floats in inspector
+    public float eel;
+    public float fable;
+    float total; // for equation
+    void Start()
+    {
+        total = (dare + eel + fable) / 2;
+
+        Debug.Log("The total fart value is " + total);
+    }
+
+    void Update()
+    {
+        
+    }
+}
