@@ -1,0 +1,22 @@
+using UnityEngine;
+
+public class Script3 : MonoBehaviour
+{
+    string fullsentence;
+    public string dogName;
+    public string bunnyName;
+    public string catName;
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    void Start()
+    {
+        fullsentence = "I like " + dogName + bunnyName + catName;
+
+        Debug.Log(fullsentence);
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+}
